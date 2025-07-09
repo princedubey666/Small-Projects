@@ -7,8 +7,8 @@ public class Random{
         int x=r.nextInt(6)+1;
         double y=r.nextDouble(10);
         boolean z=r.nextBoolean();
-        System.out.println(x);
-        System.out.println(y);
-        System.out.println("it is : "+z);
+        System.out.println("The Random Integer value is : " + x);
+        System.out.println("The Random Double value is : " + y );
+        System.out.println("The Random Boolean value is : " + z);
     }
 }
